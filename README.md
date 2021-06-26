@@ -25,6 +25,6 @@ Po zainstalowaniu nodejs, zamknij cmd i uruchom je ponownie, jeśli po ponownym 
 
 **5.** Następnie wpisz `npm start` i aplikacja powinna się uruchomić, niestety ale zawsze do uruchomienia programu, wymagane jest powtarzanie czynności punktu 5, i czynności otwierania cmd w lokalizacji pobranych plików z punktu 4.
 
-Niedlugo zostanie opublikowany link z aplikacją ale w formie .exe !
+Niedlugo zostanie opublikowany link z aplikacją w formie .exe !
 
 
