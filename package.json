@@ -1,0 +1,16 @@
+{
+  "name": "your-data-app",
+  "version": "1.0.0",
+  "description": "your-data but in electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "ateista",
+  "license": "GPL",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "electron": "^13.1.4",
+    "electron-packager": "^15.2.0"
+  }
+}

@@ -1,0 +1,86 @@
+body{
+    background-color: #252626;
+}
+
+#title{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #dbdbdb;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#sresolution{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#bpercentage{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#bdetection{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#osdetecion{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#datedetection{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#ipdetection{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#citydetection{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+#countrydetection{
+    font-family: sans-serif;
+    color: #dbdbdb;
+    font-size: 25px;
+}
+
+.links{
+    text-decoration: none;
+    color: #dbdbdb
+}
+.links:hover{
+    text-decoration: underline;
+}
+#git{
+    text-decoration: none;
+    color: #23abb0;
+}
+#git:hover{
+    text-decoration: underline;
+}
+
+#box{
+    position: absolute;
+    left: 30px;
+    width: 390px;
+    top: 130px;
+    background-color: #252626;
+    padding: 15px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #23abb0;
+}
+
+#image{
+    position: absolute;
+    left: 475px;
+}

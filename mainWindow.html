@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id = "title">
+            Your Data:
+        </div>
+        <div id = "image" >
+             <img  src="data_image.png">
+        </div>
+        <div id = "box">
+
+        <div id = "sresolution"></div>
+        <br><br>
+        <div id = "bpercentage"></div>
+        <br><br>
+        <div id = "osdetecion"></div>
+        <br><br>
+        <div id = "datedetection"></div>
+        <br><br>
+        <div id = "ipdetection"></div>
+        <br><br>
+        <div id = "citydetection"></div>
+        <br><br>
+        <div id = "countrydetection"></div>
+        </div>
+        <script type="text/javascript">
+
+            // screen res
+            var width = screen.width
+            var height = screen.height
+
+            document.getElementById("sresolution").innerHTML = "Your Resolution: "+ width+ "x"+ height
+            // battery percentage
+            navigator.getBattery().then(function(battery) {
+                document.getElementById("bpercentage").innerHTML = "Your Battery Percentage: "+ battery.level * 100 + "%"
+            })
+
+            // detecting os
+
+            let { appVersion } = navigator
+            if (appVersion.indexOf("Win")) {document.getElementById("osdetecion").innerHTML = "Your OS: "+ "Windows 10"}
+            else if (appVersion.indexOf("Linux")) {document.getElementById("osdetecion").innerHTML = "Your OS: "+ "Linux <3"}
+            else if (appVersion.indexOf("Mac")) {document.getElementById("osdetecion").innerHTML = "Your OS: "+ "Mac OS"}
+            else if (appVersion.indexOf("Android")) {document.getElementById("osdetecion").innerHTML = "Your OS: "+ "Android"}
+
+            // detecting system date
+
+            var today = new Date()
+
+            var day = today.getDate()
+            var month = today.getMonth() + 1
+            var year = today.getFullYear()
+
+            document.getElementById("datedetection").innerHTML = "Date on your computer: "+ day+"/"+month+"/"+year
+
+            // detecting ip
+            function json(url) {
+                return fetch(url).then(res => res.json());
+            }
+
+            let apiKey = '378e81b7081ace3dab33ee11ac16ee8b866849ad4d2b2897b94dbbca';
+            json(`https://api.ipdata.co?api-key=${apiKey}`).then(data => {
+                document.getElementById("ipdetection").innerHTML = "Your IP: "+ (data.ip);
+                document.getElementById("citydetection").innerHTML = "Your City: "+ (data.city);
+                document.getElementById("countrydetection").innerHTML = "Your Country: "+ (data.country_code);
+            });
+
+
+        </script>
+</body>
+</html>
