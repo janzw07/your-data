@@ -21,7 +21,9 @@ Po zainstalowaniu nodejs, zamknij cmd i uruchom je ponownie, jeśli po ponownym 
 
 ![image](https://user-images.githubusercontent.com/85803927/123523100-e7beb780-d6c1-11eb-9e5e-7c43ebf264ba.png)
 
-Następnie kliknij enter. Otworzy ci się cmd, następnie wpisz `npm start` i aplikacja powinna się uruchomić, niestety ale zawsze do uruchomienia programu, wymagane jest powtarzanie czynności punktu 4.
+ I kliknij enter. Otworzy ci się cmd w lokalizacji pobranych plików, wpisz `npm install`, komenda ta zainstaluje wszystkie paczki wymagane do uruchomienia aplikacji, instalacja nie powinna zająć więcej niż 30 sekund
+
+**5.** Następnie wpisz `npm start` i aplikacja powinna się uruchomić, niestety ale zawsze do uruchomienia programu, wymagane jest powtarzanie czynności punktu 5, i czynności otwierania cmd w lokalizacji pobranych plików z punktu 4.
 
 Niedlugo zostanie opublikowany link z aplikacją ale w formie .exe !
 
