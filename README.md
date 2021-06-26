@@ -2,7 +2,7 @@
 ## O aplikacji
 **Your Data App** to aplikacja pokazująca podstawowe informacje o użytkowniku, należą do nich: rozdzielczość ekranu, procent naładowana baterii, używany system operacyjny, data ustawiona na komputerze, ip użytkownika, geolokacja ip
 
-Aplikacja została stworzona z wykorzystaniem react.js, nie zbiera ona żadnych informacji o użytkowniku a cały jej kod jest open source
+Aplikacja została stworzona z wykorzystaniem electron.js, nie zbiera ona żadnych informacji o użytkowniku a cały jej kod jest open source
 
 ## **Instalacja**
 **1.** Otwórz cmd wpisując w oknie wyszukiwania aplikacji "cmd", wyświetli ci się aplikacja Command Line/Wiersz Poleceń, otwórz ją 
