@@ -1,12 +1,12 @@
 {
   "name": "your-data-app",
   "version": "1.0.0",
-  "description": "your-data but in electron app",
+  "description": "your-data but made in electron",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "ateista",
+  "author": "Jan Zwoliński",
   "license": "GPL",
   "dependencies": {
     "chalk": "^4.1.1",
