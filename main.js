@@ -6,11 +6,11 @@ const {app, BrowserWindow} = electron
 
 let mainWindow 
 
-// listen are app ready
+
 app.on('ready', function() {
     // create new window
     mainWindow = new BrowserWindow({
-        widht: 960, 
+        widht: 900, 
         height: 720,
     })
 
